@@ -1,4 +1,5 @@
 def isLeapYear (year):
+	#function for calculating if this is a leap year
 	if (year-1800) % 4 == 0:
 		print("This is a leap year")
 	else:
